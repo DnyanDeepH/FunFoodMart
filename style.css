@@ -250,7 +250,7 @@ section {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #ffffff;
+  color: #000000;
 }
 
 .team-grid {
@@ -260,7 +260,10 @@ section {
 }
 
 .team-member {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -274,7 +277,7 @@ section {
 
 .team-member img {
   width: 100%;
-  height: 200px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -285,7 +288,8 @@ section {
 
 .team-member p {
   padding: 0 1rem 1rem;
-  color: #666;
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 /* Features Section */
@@ -564,7 +568,7 @@ section {
   }
 
   .about-images {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
   }
 
   .features-grid {
