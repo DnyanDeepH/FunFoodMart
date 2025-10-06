@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 /* Navigation Bar */
 #navbar {
   position: fixed;
@@ -130,6 +131,16 @@ section {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #ffd700;
+}
+
+.hero h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
 }
 
 .logo-image {
